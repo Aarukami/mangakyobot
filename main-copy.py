@@ -23,7 +23,7 @@ from selenium.webdriver.firefox.firefox_binary import FirefoxBinary'''
 
 chilp_it = pyshorteners.Shortener()
 #token = os.environ.get("bot_api")
-token = "1324074534:AAH2WfmQT0M-Iv_H46iO0fz6qVStuvqeLY4"
+token = "5231066574:AAFloU8gntrcjJ7JkcwsvB20sUnzx7TuRkc"
 bot = telebot.TeleBot(token)
 
 
