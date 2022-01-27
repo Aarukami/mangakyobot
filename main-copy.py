@@ -17,8 +17,8 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from telebot.types import InputMediaPhoto
 from telebot import types
 from selenium import webdriver
-'''from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.firefox.firefox_binary import FirefoxBinary'''
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 
 
 chilp_it = pyshorteners.Shortener()
@@ -36,10 +36,10 @@ browser = webdriver.Chrome(executable_path=os.environ.get("CHROME_PATH"), chrome
 
 
 
-'''options = Options()
+options = Options()
 options.headless = False
-#req = requests.get("https://w11.mangafreak.net/Search/" + str(query), headers = {"User-Agent" : "Mozilla/5.0", 'x-requested-with': 'XMLHttpRequest'})
-browser = webdriver.Firefox(options=options, executable_path="D:\instabot\instabot\geckodriver.exe")'''
+req = requests.get("https://w11.mangafreak.net/Search/" + str(query), headers = {"User-Agent" : "Mozilla/5.0", 'x-requested-with': 'XMLHttpRequest'})
+browser = webdriver.Firefox(options=options, executable_path="D:\instabot\instabot\geckodriver.exe")
 
 
 def extract_text(text):
